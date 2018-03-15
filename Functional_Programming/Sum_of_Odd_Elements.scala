@@ -1,0 +1,1 @@
+def f(arr:List[Int]):Int = arr.filter((i: Int) => i%2!=0).reduceLeft(_ + _) 
